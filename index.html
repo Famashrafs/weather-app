@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7bed3c335a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+<body>
+    <div class="weather-app">
+        <div class="container">
+            <h3 class="brand">MY WEATHER APP</h3>
+            <div>
+            <h1 class="temp">16&#176;</h1>
+            <div class="city-time">
+                <h1 class="name">cairo</h1>
+                <small>
+                    <span class="time">06:06</span>
+                    -
+                    <span class="date">
+                        wednesday jun 19
+                    </span>
+                </small>
+            </div>
+            <div class="weather">
+                <img
+                src="//cdn.weatherapi.com/weather/64x64/day/116.png"
+                class="icon"
+                alt="icon"
+                width="50"
+                height="50"
+                />
+                <span class="condition">cloudy</span>
+            </div>
+        </div>
+    </div>
+        <div class="panel">
+            <form action="" id="locationInput">
+                <input
+                    type="text"
+                    class="search"
+                    placeholder="search location..."
+                    />
+                    <button type="submit" class="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+            </form>
+            <ul class="cities">
+                <li class="city">cairo</li>
+                <li class="city">new york</li>
+                <li class="city">paris</li>
+                <li class="city">barcelona</li>
+            </ul>
+            <ul class="details">
+                <h4>weather details</h4>
+                <li>
+                    <span>Cloudy</span>
+                    <span class="cloud">89%</span>
+                </li>
+                <li>
+                    <span>humidity</span>
+                    <span class="humidity">64%</span>
+                </li>
+                <li>
+                    <span>wind</span>
+                    <span class="wind">8km/h</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
