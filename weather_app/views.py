@@ -13,7 +13,7 @@ def get_weather(request, city_name: str) -> JsonResponse:
     Args:
         request: The HTTP request object.
         city_name: The name of the city for which the weather data is to be fetched.
-
+ 
     Returns:
         JSON response containing the weather data on success, or JSON response with an error message and a 404 status code on failure.
     """

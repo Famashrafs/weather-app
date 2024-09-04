@@ -11,9 +11,9 @@ ALLOWED_HOSTS = []
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static'),
+    os.path.join(BASE_DIR, 'weather_app/static'),
 ]
-WEATHER_API_KEY = '813489435ba940f8b7a184954241906&q'
+WEATHER_API_KEY = 'eff202f9e53e4654ab8173048240409'
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
